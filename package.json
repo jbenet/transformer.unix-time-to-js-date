@@ -1,0 +1,30 @@
+{
+  "name": "transformer.unix-time-to-js-date",
+  "version": "0.0.1",
+  "description": "transformer conversion: unix-time to js-date",
+  "main": "index.js",
+  "transformer": "transformer.jsonld",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "transformer",
+    "transformer-conversion"
+  ],
+  "dependencies": {
+    "dat-transformer": "~0.1.5",
+    "transformer.unix-time": "0.0.1",
+    "transformer.js-date": "0.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbenet/transformer.unix-time-to-js-date.git"
+  },
+  "author": "Juan Benet <juan@benet.ai> (http://juan.benet.ai/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenet/transformer.unix-time-to-js-date/issues"
+  },
+  "homepage": "https://github.com/jbenet/transformer.unix-time-to-js-date"
+}
