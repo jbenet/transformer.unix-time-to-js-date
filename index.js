@@ -1,9 +1,9 @@
-var transformer = require('dat-transformer');
-var tUnixTime = transformer('unix-time');
-var tJsDate = transformer('js-date');
+var Conversion = require('transformer-conversion');
+var tUnixTime = require('transformer.unix-time');
+var tJsDate = require('transformer.js-date');
 // require any other modules you may need here.
 
-module.exports = transformer.Conversion(tUnixTime, tJsDate, convert);
+module.exports = Conversion(tUnixTime, tJsDate, convert);
 
 function convert(unixTime) {
   return new Date(unixTime * 1000.0); // Date uses ms, not s.
